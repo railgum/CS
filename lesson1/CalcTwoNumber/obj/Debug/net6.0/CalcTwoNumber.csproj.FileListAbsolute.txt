@@ -1,0 +1,15 @@
+X:\Geek\Developer\1_block\4_C#\lesson1\CalcTwoNumber\bin\Debug\net6.0\CalcTwoNumber.exe
+X:\Geek\Developer\1_block\4_C#\lesson1\CalcTwoNumber\bin\Debug\net6.0\CalcTwoNumber.deps.json
+X:\Geek\Developer\1_block\4_C#\lesson1\CalcTwoNumber\bin\Debug\net6.0\CalcTwoNumber.runtimeconfig.json
+X:\Geek\Developer\1_block\4_C#\lesson1\CalcTwoNumber\bin\Debug\net6.0\CalcTwoNumber.dll
+X:\Geek\Developer\1_block\4_C#\lesson1\CalcTwoNumber\bin\Debug\net6.0\CalcTwoNumber.pdb
+X:\Geek\Developer\1_block\4_C#\lesson1\CalcTwoNumber\obj\Debug\net6.0\CalcTwoNumber.csproj.AssemblyReference.cache
+X:\Geek\Developer\1_block\4_C#\lesson1\CalcTwoNumber\obj\Debug\net6.0\CalcTwoNumber.GeneratedMSBuildEditorConfig.editorconfig
+X:\Geek\Developer\1_block\4_C#\lesson1\CalcTwoNumber\obj\Debug\net6.0\CalcTwoNumber.AssemblyInfoInputs.cache
+X:\Geek\Developer\1_block\4_C#\lesson1\CalcTwoNumber\obj\Debug\net6.0\CalcTwoNumber.AssemblyInfo.cs
+X:\Geek\Developer\1_block\4_C#\lesson1\CalcTwoNumber\obj\Debug\net6.0\CalcTwoNumber.csproj.CoreCompileInputs.cache
+X:\Geek\Developer\1_block\4_C#\lesson1\CalcTwoNumber\obj\Debug\net6.0\CalcTwoNumber.dll
+X:\Geek\Developer\1_block\4_C#\lesson1\CalcTwoNumber\obj\Debug\net6.0\refint\CalcTwoNumber.dll
+X:\Geek\Developer\1_block\4_C#\lesson1\CalcTwoNumber\obj\Debug\net6.0\CalcTwoNumber.pdb
+X:\Geek\Developer\1_block\4_C#\lesson1\CalcTwoNumber\obj\Debug\net6.0\CalcTwoNumber.genruntimeconfig.cache
+X:\Geek\Developer\1_block\4_C#\lesson1\CalcTwoNumber\obj\Debug\net6.0\ref\CalcTwoNumber.dll
