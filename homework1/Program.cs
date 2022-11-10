@@ -62,15 +62,15 @@ else
 
 Console.WriteLine("Введите число");
 int number = Convert.ToInt32(Console.ReadLine());
-int i = 1;
+int i = 1;  // int = 2
 
 while (i < number)
 {
-  if (i % 2 == 0)
+  if (i % 2 == 0)  // Lifehack - не делаем
   {
     Console.Write(i + "  ");
   }
-  i++;
+  i++;  // i = i + 2
 }
 
 */
