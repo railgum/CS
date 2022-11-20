@@ -23,26 +23,24 @@ Console.WriteLine($"Reverse array: [{String.Join("; ", reverseArray)}]");
 /* Напишите программу, которая принимает на вход три числа 
   и проверяет, может ли существовать треугольник с сторонами такой длины.
 
-
-
-bool DoesTriangle(int a, int b, int c)
-{
-  if ((a + b) > c && (a + c) > b && (b + c) > a)
+  bool DoesTriangle(int a, int b, int c)
   {
-    return true;
+    if ((a + b) > c && (a + c) > b && (b + c) > a)
+    {
+      return true;
+    }
+    else return false;
   }
-  else return false;
-}
 
-if (DoesTriangle(8, 7, 6))
-{
-  Console.WriteLine("Существует");
-}
-else
-{
-  Console.WriteLine("Не существует");
+  if (DoesTriangle(8, 7, 6))
+  {
+    Console.WriteLine("Существует");
+  }
+  else
+  {
+    Console.WriteLine("Не существует");
 
-}
+  }
 
 */
 
