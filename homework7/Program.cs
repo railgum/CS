@@ -96,19 +96,25 @@ int[] digit = new int[ch.Length];
 for (int i = 0; i < ch.Length; i++) digit[i] = int.Parse(ch[i].ToString());
 int positionRow = digit[0];
 int positionColumn = digit[1];
-
-
-for (int i = 0; i < matrix.GetLength(0); i++)
+if(positionRow>rows||positionColumn>columns)
 {
-  for (int j = 0; j < matrix.GetLength(1); j++)
-  {
-    matrix[i, j] = new Random().Next(10);
-    Console.Write(matrix[i, j] + "\t");
-  }
-  Console.WriteLine();
+  Console.WriteLine("Размер массива меньше этих значений");
 }
-Console.WriteLine($"Значение массива в строке {positionRow} и столбце {positionColumn}");
-Console.WriteLine(matrix[positionRow - 1, positionColumn - 1]);
+else
+{
+  for (int i = 0; i < matrix.GetLength(0); i++)
+  {
+    for (int j = 0; j < matrix.GetLength(1); j++)
+    {
+      matrix[i, j] = new Random().Next(10);
+      Console.Write(matrix[i, j] + "\t");
+    }
+    Console.WriteLine();
+  }
+  Console.WriteLine($"Значение массива в строке {positionRow} и столбце {positionColumn} - {matrix[positionRow - 1, positionColumn - 1]}");
+}
+
+
 */
 
 /*
