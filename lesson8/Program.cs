@@ -65,6 +65,7 @@ PrintArray(array);
 которая заменяет строки на столбцы. В случае, если это невозможно, 
 программа должна вывести сообщение для пользователя.
 */
+// функция замены строк столбцами
 int[,] ReplaceRowsWithColumns(int[,] original)
 {
   int[,] result = new int[original.GetLength(0), original.GetLength(1)];
@@ -78,17 +79,17 @@ int[,] ReplaceRowsWithColumns(int[,] original)
   return result;
 }
 
-
-
+/*
 int[,] array = GetArray(rows, columns, 0, 10);
 PrintArray(array);
 Console.WriteLine();
 ReplaceRowsWithColumns(array);
 PrintArray(array);
+*/
 
-/* Задача 59: Задайте двумерный массив из целых чисел. 
-Напишите программу, которая удалит строку и столбец, на пересечении 
-которых расположен наименьший элемент массива.
+/* Задача 59: Задайте двумерный массив из целых чисел. Напишите программу, 
+  которая удалит строку и столбец, на пересечении которых расположен 
+  наименьший элемент массива.
 Например, задан массив:
 1 4 7 2
 5 9 2 3
@@ -96,4 +97,46 @@ PrintArray(array);
 5 2 6 7
 Наименьший элемент - 1
 */
+
+int[,] matrix = new int[rows, columns];
+int minValue = int.MaxValue;               // Значение минимального элемента
+int minIndexRows = 0;                      // Задали индекс строки мин.элемента
+int minIndexColumns = 0;                   // Задали индекс столбца мин.элемента
+
+// заполняем массив и ищем минимальное значение массива
+for (int i = 0; i < rows; i++)
+{
+  for (int j = 0; j < columns; j++)
+  {
+    matrix[i, j] = new Random().Next(11);
+    Console.Write(matrix[i, j] + "\t");
+    if (minValue > matrix[i, j])
+    {
+      minValue = matrix[i, j];
+      minIndexRows = i;
+      minIndexColumns = j;
+    }
+  }
+  Console.WriteLine();
+}
+Console.WriteLine("Минимальное значение: " + minValue);
+Console.WriteLine("Результат: ");
+
+// проходим по массиву, исключая строку и столбец с минимальным значением
+
+for (int i = 0; i < rows; i++)
+{
+  if (i != minIndexRows)
+  {
+    for (int j = 0; j < columns; j++)
+    {
+      if (j != minIndexColumns)
+      {
+        Console.Write(matrix[i, j] + "\t");
+      }
+    }
+    Console.WriteLine();
+  }
+}
+
 
