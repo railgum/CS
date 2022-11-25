@@ -16,7 +16,7 @@
 
 2 4 4 8
 */
-
+/*
 //Console.WriteLine("Введите количество строк");
 //int rows = int.Parse(Console.ReadLine());
 //Console.WriteLine("Введите количество столбцов");
@@ -89,7 +89,6 @@ PrintArray(array);
 
 Программа считает сумму элементов в каждой строке и выдаёт номер строки с наименьшей суммой элементов: 1 строка
 
-*/
 //функция поиска строки с минимальной суммой элементов
 void MinSumOnRows(int[,] matrix)
 {
@@ -110,6 +109,7 @@ void MinSumOnRows(int[,] matrix)
   }
   Console.WriteLine($"Минимальная сумма({minSum}) на: {rowIndex + 1} стр.");
 }
+
 /*
 int[,] array = GetArray(rows, columns, 0, 10);
 PrintArray(array);
@@ -139,6 +139,7 @@ MinSumOnRows(array);
 56 8 4 24
 10 6 24 49
 */
+/*
 // функция перемножения одноразмерных двумерных массивов
 int[,] MultiMatrix(int[,] matrixOne, int[,] matrixTwo)
 {
@@ -188,7 +189,7 @@ Console.WriteLine("Введите количество столбцов");
 int columns = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите количество страниц");
 int pages = int.Parse(Console.ReadLine());
-*/
+
 // функция создания трехмерного массива
 int[,,] ThreeDMatrix(int x, int y, int z, int min, int max)
 {

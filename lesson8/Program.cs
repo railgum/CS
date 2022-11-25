@@ -1,6 +1,6 @@
 ﻿/* Задача 53: Задайте двумерный массив. Напишите программу, 
   которая поменяет местами первую и последнюю строку массива.
-*/
+
 
 Console.WriteLine("Введите количество строк");
 int rows = int.Parse(Console.ReadLine());
@@ -61,12 +61,12 @@ PrintArray(array);
 ChangeRows(array);
 Console.WriteLine();
 PrintArray(array);
-*/
+
 
 /*Задача 55: Задайте двумерный массив. Напишите программу, 
 которая заменяет строки на столбцы. В случае, если это невозможно, 
 программа должна вывести сообщение для пользователя.
-*/
+
 // функция замены строк столбцами
 int[,] ReplaceRowsWithColumns(int[,] original)
 {
@@ -87,7 +87,7 @@ PrintArray(array);
 Console.WriteLine();
 ReplaceRowsWithColumns(array);
 PrintArray(array);
-*/
+
 
 /* Задача 59: Задайте двумерный массив из целых чисел. Напишите программу, 
   которая удалит строку и столбец, на пересечении которых расположен 
@@ -98,7 +98,7 @@ PrintArray(array);
 8 4 2 4
 5 2 6 7
 Наименьший элемент - 1
-*/
+
 
 int[,] matrix = new int[rows, columns];
 int minValue = int.MaxValue;               // Значение минимального элемента
@@ -141,4 +141,4 @@ for (int i = 0; i < rows; i++)
   }
 }
 
-
+*/
