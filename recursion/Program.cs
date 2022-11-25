@@ -1,5 +1,5 @@
 ﻿// Сумма чисел от 1 до n
-
+/*
 int SumFor(int n)
 {
   int result = 0;
@@ -32,3 +32,4 @@ int FactorialFRec(int n)
   if (n == 1) return 1;
   else return n * FactorialFRec(n - 1);
 }
+*/
